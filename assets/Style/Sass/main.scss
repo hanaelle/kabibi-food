@@ -1,3 +1,5 @@
+@forward "./Utilitaires/reset";
+@use "./Utilitaires/fonts" as *;
 @forward "./Layout/header";
 @forward "./Layout/category";
 @forward "./Layout/images";
