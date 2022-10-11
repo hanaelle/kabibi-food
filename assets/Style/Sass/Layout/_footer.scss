@@ -1,8 +1,76 @@
 @use "../Utilitaires/variables" as *;
 
 footer {
-    background-color: $color-black;
-    background-image: url(../../../img/footer/img-ng-footer.jpg);
-    width: 100%;
-    height: 70%;
+    font-family: 'fa-regular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/assets/img/footer/img-ng-footer.jpg');
+    background-size: 150% 100%;
+    color: $color-white;
+    width: 100vw;
+    height: 100vh;
+    img {
+        margin-bottom: 5em;
+    }
+    ul {
+        list-style: none;
+        li {
+            text-align: left;
+            margin: 1em 0;
+        }
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    h6 {
+        text-align: left;
+        font-size: 2em;
+        font-family: 'David Libre', serif;
+        font-weight: 400;
+        color: white;
+    }
+    a {
+        color: $color-brown;
+        text-decoration: none;
+        &:hover {
+            color: $color-brown
+        }
+        &:visited {
+            color: $color-brown;
+        }
+    }
+    hr {
+        margin: 2em 0;
+        border-top: 1px solid grey;
+        width: 70%;
+    }
+    small {
+        display: block;
+        width: 70%;
+        margin-bottom: 5em;
+    }
+}
+
+#footer__logo {
+    position: absolute;
+    width: 50px;
+    top: 860px;
+}
+
+.nav__menu {
+    width: 30%;
+    input {
+        padding: 1em;
+    }
+    button {
+        width: 2em;
+        height: 3.43em;
+        background-color: $color-brown;
+        border: none;
+    }
 }
