@@ -1,0 +1,8 @@
+@use "../Utilitaires/variables" as *;
+
+footer {
+    background-color: $color-black;
+    background-image: url(../../../img/footer/img-ng-footer.jpg);
+    width: 100%;
+    height: 70%;
+}
