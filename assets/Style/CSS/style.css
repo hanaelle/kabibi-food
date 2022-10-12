@@ -128,39 +128,49 @@ footer {
 footer img {
   margin-bottom: 5em;
 }
+footer p {
+  color: grey;
+}
 footer ul {
   list-style: none;
 }
 footer ul li {
-  text-align: left;
-  margin: 1em 0;
-}
-footer nav {
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin: 1em 0;
+  font-size: 13px;
+  color: grey;
+}
+footer ul li i {
+  margin-right: 1em;
+}
+footer nav {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 15% 15% 30% 25%;
+  column-gap: 1em;
+  margin-left: 12em;
 }
 footer h6 {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "David Libre", serif;
   font-weight: 400;
   color: white;
 }
 footer a {
-  color: #c2b35f;
+  color: grey;
   text-decoration: none;
 }
 footer a:hover {
   color: #c2b35f;
 }
 footer a:visited {
-  color: #c2b35f;
+  color: grey;
 }
 footer hr {
   margin: 2em 0;
-  border-top: 1px solid grey;
+  border: 1px solid rgba(160, 157, 157, 0.1);
   width: 70%;
 }
 footer small {
@@ -168,24 +178,36 @@ footer small {
   width: 70%;
   margin-bottom: 5em;
 }
+footer small a {
+  color: #c2b35f;
+}
+footer small a:visited {
+  color: #c2b35f;
+}
+footer small a:hover {
+  color: #c9caca;
+}
 
 #footer__logo {
   position: absolute;
   width: 50px;
-  top: 860px;
+  top: 118%;
 }
 
-.nav__menu {
-  width: 30%;
-}
 .nav__menu input {
   padding: 1em;
 }
 .nav__menu button {
-  width: 2em;
+  width: 3em;
   height: 3.43em;
   background-color: #c2b35f;
+  color: white;
   border: none;
+  outline: none;
+}
+.nav__menu button:active {
+  background-color: #c9caca;
+  color: #c2b35f;
 }
 
 /*# sourceMappingURL=style.css.map */
