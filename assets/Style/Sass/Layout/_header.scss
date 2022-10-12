@@ -1,0 +1,63 @@
+header{
+    background-image: url(/assets/img/slider/img_bg_slider_home01.jpg);
+    height: 100%;
+    width: 100%;
+        nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    ul {
+            color: rgb(226, 26, 26);
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            margin-left: 50%;
+        }
+}
+}
+
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 1em;
+    
+}
+
+p{
+    color: rgb(219, 24, 24);
+    display: flex;
+}
+
+h1{
+    color: aliceblue;
+    margin-left: 30px;
+    display: flex;
+    
+}
+
+#book{
+        color: #ca1c1c;
+        border: 1px solid #e5ede5;
+        width: 120px;
+        height: 20px;
+        border-radius: 30px;
+        text-justify: none;
+        font-size: 1em;
+        margin-left: 70%;
+}
+#explore{
+    color: #ac1515;
+    border: 1px solid #e5ede5;
+    width: 120px;
+    height: 20px;
+    border-radius: 30px;
+    text-justify: none;
+    font-size: 1em;
+    
+}
