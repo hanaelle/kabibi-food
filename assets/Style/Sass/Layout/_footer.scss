@@ -7,7 +7,7 @@ footer {
     align-items: center;
     justify-content: center;
     background: url('/assets/img/footer/img-ng-footer.jpg');
-    background-size: 150% 100%;
+    background-position: center;
     color: $color-white;
     width: 100vw;
     height: 100vh;
@@ -91,7 +91,7 @@ footer {
     img {
         width: 50px;
         position: absolute;
-        top: -15px;
+        top: -65px;
     }
 }
 
