@@ -22,11 +22,19 @@ header{
                 margin: 0 1em;
                 color: #efe5e5;
                 display: flex;
-                
+
+            p {
+                color: rgb(199, 191, 191);
+                display: flex;
+                font-size: 30px;
+                margin-left: 15%;
+                margin-top: 20%;
 }
 }
 }
 }
+}
+
 
 img{
     margin-top: 20px;
@@ -38,13 +46,7 @@ img{
     height: 150px;
 }
 
-p{
-    color: rgb(199, 191, 191);
-    display: flex;
-    font-size: 30px;
-    margin-left: 15%;
-    margin-top: 20%;
-}
+
 
 h1{
         color: rgb(15, 104, 182);
