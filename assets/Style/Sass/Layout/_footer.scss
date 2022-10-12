@@ -41,13 +41,13 @@ footer {
         color: white;
     }
     a {
-        color: $color-brown;
+        color: grey;
         text-decoration: none;
         &:hover {
-            color: $color-white;
+            color: $color-brown;
         }
         &:visited {
-            color: $color-brown;
+            color: grey;
         }
     }
     hr {
@@ -59,6 +59,15 @@ footer {
         display: block;
         width: 70%;
         margin-bottom: 5em;
+        a {
+            color: $color-brown;
+            &:visited {
+                color: $color-brown;
+            }
+            &:hover {
+                color: $color-white;
+                }
+        }
     }
 }
 
@@ -81,11 +90,6 @@ footer {
         outline: none;
         &:active {
             background-color: $color-white;
-            color: $color-brown;
-        }
-    }
-    a {
-        &:hover {
             color: $color-brown;
         }
     }
