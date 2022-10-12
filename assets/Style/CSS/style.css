@@ -17,13 +17,16 @@ header nav {
   margin-top: 30px;
 }
 header nav ul {
-  color: rgb(226, 26, 26);
+  color: rgb(207, 199, 199);
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
-  margin-left: 50%;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 5%;
 }
-
+.home{
+  color: #B68C5A;
+}
 img {
   margin-top: 20px;
   margin-left: 20px;
@@ -32,6 +35,23 @@ img {
 li {
   list-style-type: none;
   margin: 0 1em;
+  font-size: 20px;
+  
+  
+}
+.number{
+  margin-left: 40%;
+  
+}
+
+.fa-solid {
+  color: #B68C5A;
+  font-size: 13px;
+  
+}
+.tel{
+  color: #e5ede5; 
+  font-weight: 30; 
 }
 
 p {
@@ -40,9 +60,10 @@ p {
 }
 
 h1 {
-  color: aliceblue;
-  margin-left: 30px;
-  display: flex;
+  color: rgb(15, 104, 182);
+    margin-left: 50px;
+    margin-top: 20%;
+    display: flex;
 }
 
 #book {
@@ -65,6 +86,32 @@ h1 {
   text-justify: none;
   font-size: 1em;
 }
+
+
+.logo-two {
+  margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   font-family: "fa-regular";
