@@ -54,10 +54,14 @@ footer {
             color: grey;
         }
     }
+    i {
+        color: $color-brown;
+    }
     hr {
         margin: 2em 0;
         border: 1px solid rgba(160, 157, 157, 0.1);
-        width: 70%;
+        width: 100%;
+        background-image: url('./assets/img/footer/iconup@2x.png');
     }
     small {
         display: block;
@@ -75,10 +79,20 @@ footer {
     }
 }
 
-#footer__logo {
-    position: absolute;
-    width: 50px;
-    top: 118%;
+
+#hr__img {
+    height: 1em;
+    display: block;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    img {
+        width: 50px;
+        position: absolute;
+        top: -15px;
+    }
 }
 
 .nav__menu {

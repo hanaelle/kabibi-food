@@ -14,6 +14,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: center;
   flex-direction: row;
   margin-top: 30px;
 }
@@ -42,15 +43,31 @@ header nav ul li p {
 img {
   margin-top: 70px;
   margin-left: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-#logo-two {
-  width: 150px;
-  height: 150px;
+li {
+  list-style-type: none;
+  margin: 0 1em;
+  color: #efe5e5;
+  display: flex;
+  margin-left: 100px;
 }
 
 .home {
   color: #b68c5a;
+}
+
+h1 {
+  color: rgb(232, 235, 238);
+  margin-left: 200px;
+  margin-top: 100px;
+  display: flex;
+  font-family: "Cinzel", serif;
+  font-size: 100px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -143,10 +160,14 @@ footer a:hover {
 footer a:visited {
   color: grey;
 }
+footer i {
+  color: #c2b35f;
+}
 footer hr {
   margin: 2em 0;
   border: 1px solid rgba(160, 157, 157, 0.1);
-  width: 70%;
+  width: 100%;
+  background-image: url("./assets/img/footer/iconup@2x.png");
 }
 footer small {
   display: block;
@@ -163,10 +184,19 @@ footer small a:hover {
   color: #c9caca;
 }
 
-#footer__logo {
-  position: absolute;
+#hr__img {
+  height: 1em;
+  display: block;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+#hr__img img {
   width: 50px;
-  top: 118%;
+  position: absolute;
+  top: -15px;
 }
 
 .nav__menu input {
