@@ -1,0 +1,22 @@
+{
+  "name": "kabibi-food",
+  "version": "1.0.0",
+  "description": "Reproduire l'image suivante [restaurant-theme](./images/restaurant-theme.png)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch ./assets/Style/SASS/main.scss ./assets/Style/CSS/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanaelle/kabibi-food.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanaelle/kabibi-food/issues"
+  },
+  "homepage": "https://github.com/hanaelle/kabibi-food#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
