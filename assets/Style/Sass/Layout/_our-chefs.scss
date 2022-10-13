@@ -1,4 +1,21 @@
 #ourchefs {
     background-image: url(/assets/img/our-chefs/imgbg-ourchefs.jpg);
+    background-position: right;
     height: 100vh;
+    .titles {
+        h2 {
+            color: #090909;
+        }
+        h3, h4 {
+            color: white;
+        }
+    }
+    .ourchefs__chefs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
 }
