@@ -20,12 +20,13 @@ header{
         li {
             list-style-type: none;
             margin: 0 1em;
-            color: #efe5e5;
+            color: #f5eeee;
             display: flex;
             margin-left: 30px;
+            
 
         p {
-            color: rgb(199, 191, 191);
+            color: rgb(241, 239, 239);
             display: flex;
             font-size: 30px;
             margin-left: 15%;
@@ -47,7 +48,7 @@ header{
 }
 
 .best{
-    color: rgb(232, 235, 238);
+    color: rgb(237, 240, 243);
     margin-left: 200px;
     margin-top: 100px;
     display: flex;
@@ -55,6 +56,7 @@ header{
     font-size: 100px;
     font-weight: 400;
     text-transform: uppercase;
+    
 }
 
 
@@ -62,9 +64,8 @@ header{
     width: 150px;
     height: 150px;
     margin-left: 550px;
-    /*position: relative;
-        top: -26rem;
-        left: 31rem;*/
+    position: relative;
+    top: -26rem;
     
 }
 
@@ -74,18 +75,28 @@ header{
 
 
 
-#book{
-        color: #dbcaca;
-        border: 1px solid #e5ede5;
+#book{/*
+        color: #f3eaea;
+        border: 1px solid #08d608;
         width: 120px;
         height: 20px;
         border-radius: 30px;
         text-justify: none;
         font-size: 1em;
         margin-left: 70%;
+        */
+        background-color: #b68c5a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 10px;
 }
 
-#explore{
+#explore{/*
     color: #ebe1e1;
     border: 1px solid #e5ede5;
     width: 120px;
@@ -95,14 +106,34 @@ header{
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 15px;*/
+    background-color: #b68c5a;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+        top: -3rem;
+        right: 31rem;
+        text-transform: uppercase;
+        border-radius: 10px;
     
 }
 .fa-solid {
     color: #b68c5a;
+    position: relative;
+        top: 1rem;
+        right: -37rem;
 }
 .tel{
-    color: #ebe1e1;
+    color: #f5eded;
+    position: relative;
+    top: 1rem;
+    right: -37rem;
+    font-weight: 100;
     
 }
 
