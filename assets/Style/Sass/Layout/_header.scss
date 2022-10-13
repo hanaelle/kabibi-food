@@ -1,5 +1,6 @@
 header{
-    background-image: url(/assets/img/slider/img_bg_slider_home01.jpg);
+    background-image: url('/assets/img/slider/img_bg_slider_home01.jpg');
+    background: url('/assets/img/slider/img_bg_slider_home01.jpg'), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
     height: 100%;
     width: 100%;
 
@@ -40,6 +41,9 @@ header{
 }
 }
 }
+}
+.fa-solid {
+    color: #b68c5a;
 }
 }
 
@@ -111,6 +115,7 @@ header{
     
     
 }
+<<<<<<< HEAD
 
 .fa-solid {
     color: #b68c5a;
@@ -122,3 +127,5 @@ main{
 background-image: url(/assets/img/banner/imgbgcategory.jpg);
 background-repeat: no-repeat;
 }
+=======
+>>>>>>> 64d247f9ccfccead0948cbc0398a579770d79eda
