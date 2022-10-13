@@ -101,6 +101,13 @@ footer {
                 }
         }
     }
+    i {
+        color: grey;
+        cursor: pointer;
+        &:hover {
+            color: $color-brown;
+        }
+    }
 }
 
 .nav__menu {
