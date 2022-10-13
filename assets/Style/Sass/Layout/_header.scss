@@ -1,5 +1,6 @@
 header{
-    background-image: url(/assets/img/slider/img_bg_slider_home01.jpg);
+    background-image: url('/assets/img/slider/img_bg_slider_home01.jpg');
+    background: url('/assets/img/slider/img_bg_slider_home01.jpg'), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
     height: 100%;
     width: 100%;
 
@@ -40,6 +41,9 @@ header{
 }
 }
 }
+}
+.fa-solid {
+    color: #b68c5a;
 }
 }
 
@@ -110,9 +114,4 @@ header{
     
     
     
-}
-
-.fa-solid {
-    color: #b68c5a;
-    margin-left: 380px;
 }
