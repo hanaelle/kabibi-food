@@ -1,18 +1,399 @@
-/* Error: expected "{".
- *     ,
- * 131 | >>>>>>> 64d247f9ccfccead0948cbc0398a579770d79eda
- *     |                                                 ^
- *     '
- *   assets\Style\SASS\Layout\_header.scss 131:49  @forward
- *   assets\Style\SASS\main.scss 3:1               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 131 \2502  >>>>>>> 64d247f9ccfccead0948cbc0398a579770d79eda\d\a     \2502                                                  ^\a     \2575 \a   assets\\Style\\SASS\\Layout\\_header.scss 131:49  @forward\a   assets\\Style\\SASS\\main.scss 3:1               root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-image: url("/assets/img/slider/img_bg_slider_home01.jpg");
+  background: url("/assets/img/slider/img_bg_slider_home01.jpg"), linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  height: 100%;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+header nav ul {
+  color: #efe5e5;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+header nav ul li {
+  list-style-type: none;
+  margin: 0 1em;
+  color: #e9e5e5;
+  display: flex;
+  margin-left: 30px;
+  font-size: 22px;
+}
+header nav ul li p {
+  color: rgb(241, 239, 239);
+  display: flex;
+  font-size: 30px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+header nav ul li p img {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+header .fa-solid {
+  color: #b68c5a;
+}
+
+.logo-one {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.best {
+  color: rgb(237, 240, 243);
+  margin-left: 200px;
+  margin-top: 100px;
+  display: flex;
+  font-family: "Cinzel", serif;
+  font-size: 100px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.logo-two {
+  width: 150px;
+  height: 150px;
+  margin-left: 550px;
+  position: relative;
+  top: -26rem;
+}
+
+.home {
+  color: #b68c5a;
+}
+
+#book {
+  background-color: #b68c5a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-right: 150px;
+  font-weight: 700;
+}
+
+#explore {
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: -3rem;
+  right: 31rem;
+  text-transform: uppercase;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+.tel {
+  color: #eee4e4;
+  font-weight: 100;
+}
+
+.fa-solid {
+  color: #b68c5a;
+  margin-left: 380px;
+}
+
+/*-----------------------Main categories-------------------------*/
+main {
+  background-image: url(/assets/img/banner/imgbgcategory.jpg);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  font-size: 180px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 80px;
+}
+
+/*
+
+.menu{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: flex-start;
+
+}
+*/
+#gallery .gallery__gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#gallery .gallery__gallery > * {
+  flex: 1 1 160px;
+}
+
+#ourchefs {
+  background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+  background-position: left top;
+  height: 100vh;
+}
+#ourchefs .titles h2 {
+  color: #090909;
+}
+#ourchefs .titles h3, #ourchefs .titles h4 {
+  color: white;
+}
+#ourchefs .ourchefs__chefs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+#newsblog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsblog__cards {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+.newsblog__cards .newsblog__cards--card {
+  background-color: #faf6f0;
+  display: flex;
+  flex-direction: column;
+}
+.newsblog__cards .newsblog__cards--card img {
+  width: 100%;
+}
+.newsblog__cards .newsblog__cards--card .newsblog__cards--cardinfo {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin: 1em 1em;
+}
+.newsblog__cards .newsblog__cards--card .newsblog__cards--cardinfo i {
+  margin-right: 10px;
+  color: #c2b35f;
+}
+.newsblog__cards .newsblog__cards--card p {
+  margin: 0 1em 1em 1em;
+}
+.newsblog__cards .newsblog__cards--card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2em 6em;
+  height: 2.5em;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.newsblog__cards .newsblog__cards--card a:visited {
+  color: black;
+}
+.newsblog__cards .newsblog__cards--card a:hover {
+  background-color: #c2b35f;
+  color: white;
+}
+
+#sponsors {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5em;
+  margin: 5em 0;
+}
+#sponsors img {
+  filter: grayscale(100%);
+}
+#sponsors img:hover {
+  filter: grayscale(0%);
+}
+
+footer {
+  font-family: "fa-regular";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("/assets/img/footer/img-ng-footer.jpg");
+  background-position: center;
+  color: #c9caca;
+  /*     width: 100vw; */
+  height: 70vh;
+}
+footer img {
+  margin-bottom: 5em;
+}
+footer p {
+  color: grey;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+  font-size: 13px;
+  color: grey;
+}
+footer ul li i {
+  margin-right: 1em;
+}
+footer nav {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 15% 15% 30% 25%;
+  column-gap: 1em;
+  margin-left: 12em;
+}
+footer h6 {
+  text-align: left;
+  font-size: 1.5em;
+  font-family: "David Libre", serif;
+  font-weight: 400;
+  color: white;
+}
+footer a {
+  color: grey;
+  text-decoration: none;
+}
+footer a:visited {
+  color: grey;
+}
+footer a:hover {
+  color: #c2b35f;
+}
+footer i {
+  color: #c2b35f;
+}
+footer hr {
+  margin: 2em 0;
+  border: 1px solid rgba(160, 157, 157, 0.1);
+  width: 100%;
+  background-image: url("./assets/img/footer/iconup@2x.png");
+}
+
+#hr__img {
+  height: 1em;
+  display: block;
+  width: 70%;
+  height: 50px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+#hr__img img {
+  width: 50px;
+  position: absolute;
+  top: 0;
+}
+
+#footer__cpright-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+#footer__cpright-socials small {
+  display: block;
+  width: 70%;
+  margin-bottom: 5em;
+}
+#footer__cpright-socials small a {
+  color: #c2b35f;
+}
+#footer__cpright-socials small a:visited {
+  color: #c2b35f;
+}
+#footer__cpright-socials small a:hover {
+  color: #c9caca;
+}
+#footer__cpright-socials i {
+  color: grey;
+  cursor: pointer;
+}
+#footer__cpright-socials i:hover {
+  color: #c2b35f;
+}
+
+.nav__menu input {
+  padding: 1em;
+}
+.nav__menu button {
+  width: 3em;
+  height: 3.43em;
+  background-color: #c2b35f;
+  color: white;
+  border: none;
+  outline: none;
+}
+.nav__menu button:active {
+  background-color: #c9caca;
+  color: #c2b35f;
+}
+
+.titles {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 0;
+}
+.titles h2 {
+  position: absolute;
+  left: 0;
+  font-size: 202px;
+  z-index: 0;
+  color: #faf6f0;
+  font-weight: 100;
+}
+.titles h3 {
+  font-size: 56px;
+  z-index: 1;
+}
+.titles h4 {
+  font-size: 2em;
+  font-weight: 200;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
