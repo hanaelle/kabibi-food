@@ -47,11 +47,11 @@ footer {
     a {
         color: grey;
         text-decoration: none;
-        &:hover {
-            color: $color-brown;
-        }
         &:visited {
             color: grey;
+        }
+        &:hover {
+            color: $color-brown;
         }
     }
     i {
@@ -63,6 +63,30 @@ footer {
         width: 100%;
         background-image: url('./assets/img/footer/iconup@2x.png');
     }
+}
+
+
+#hr__img {
+    height: 1em;
+    display: block;
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    img {
+        width: 50px;
+        position: absolute;
+        top: 0;
+    }
+}
+
+#footer__cpright-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
     small {
         display: block;
         width: 70%;
@@ -76,22 +100,6 @@ footer {
                 color: $color-white;
                 }
         }
-    }
-}
-
-
-#hr__img {
-    height: 1em;
-    display: block;
-    width: 70%;
-    height: 50px;
-    text-align: center;
-    position: relative;
-    bottom: 30px;
-    img {
-        width: 50px;
-        position: absolute;
-        top: -65px;
     }
 }
 
