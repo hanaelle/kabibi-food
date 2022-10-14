@@ -193,8 +193,9 @@ li {
 
 #aboutus .titles {
   background-image: url("/assets/img/about-us/iconbgabout.png");
+  background-size: 12vw auto;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 86%;
 }
 #aboutus__pictext {
   display: flex;
@@ -396,6 +397,7 @@ li {
   background-image: url("../../img/our-chefs/imgbg-ourchefs.jpg");
   background-position: left top;
   height: 100vh;
+  width: 100vw;
 }
 #ourchefs .titles h2 {
   color: #090909;
@@ -418,12 +420,13 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .newsblog__cards {
-  width: 75%;
-  display: flex;
-  flex-direction: row;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 5em;
 }
 .newsblog__cards .newsblog__cards--card {
@@ -480,6 +483,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 5em;
   margin: 5em 0;
 }
@@ -490,6 +494,16 @@ li {
   filter: grayscale(0%);
 }
 
+@media screen and (max-width: 1250px) {
+  .newsblog__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .newsblog__cards {
+    grid-template-columns: 1fr;
+  }
+}
 footer {
   font-family: "fa-regular";
   display: flex;
@@ -615,6 +629,15 @@ footer hr {
   color: #c8a969;
 }
 
+@media screen and (max-width: 1250px) {
+  footer nav {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 1em;
+    margin-left: 12em;
+  }
+}
 .titles {
   position: relative;
   width: 100%;
@@ -627,7 +650,7 @@ footer hr {
 .titles h2 {
   position: absolute;
   left: 0;
-  font-size: 202px;
+  font-size: 10vw;
   z-index: 0;
   color: #faf6f0;
   font-weight: 100;
@@ -635,7 +658,7 @@ footer hr {
   text-transform: uppercase;
 }
 .titles h3 {
-  font-size: 36px;
+  font-size: 2vw;
   z-index: 2;
   text-transform: uppercase;
   font-family: "Cormorant Garamond", serif;
@@ -643,7 +666,7 @@ footer hr {
 }
 .titles h4 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1em;
+  font-size: 1vw;
   font-weight: 400;
   z-index: 2;
 }
