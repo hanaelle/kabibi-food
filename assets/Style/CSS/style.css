@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -111,13 +112,14 @@ header .fa-solid {
 
 .fa-solid {
   color: #b68c5a;
-  margin-left: 380px;
 }
 
 /*-----------------------Main categories-------------------------*/
 main {
   background-image: url(/assets/img/banner/imgbgcategory.jpg);
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 h2 {
@@ -147,13 +149,99 @@ h4 {
 
 }
 */
+#gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #gallery .gallery__gallery {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-#gallery .gallery__gallery > * {
-  flex: 1 1 160px;
+#gallery .gallery__gallery #gallery__line1 {
+  display: grid;
+  grid-template-columns: 1.5fr 0.7fr 0.7fr;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+#gallery .gallery__gallery #gallery__line2 {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 1.48fr;
+  gap: 2em;
+}
+#gallery .gallery__gallery #gallery__gallery--fpd {
+  background-image: url("/assets/img/gallery/img1gallerybox.jpg");
+  z-index: 0;
+}
+#gallery .gallery__gallery #gallery__gallery--fpd:hover {
+  background-color: black;
+  z-index: 1;
+}
+#gallery .gallery__gallery #gallery__gallery--pvt {
+  background-image: url("/assets/img/gallery/img2gallerybox.jpg");
+}
+#gallery .gallery__gallery #gallery__gallery--pvt:hover {
+  background-color: black;
+}
+#gallery .gallery__gallery #gallery__gallery--bpp {
+  background-image: url("/assets/img/gallery/img3gallerybox.jpg");
+}
+#gallery .gallery__gallery #gallery__gallery--bpp:hover {
+  background-color: black;
+}
+#gallery .gallery__gallery #gallery__gallery--pcr {
+  background-image: url("/assets/img/gallery/img4gallerybox.jpg");
+}
+#gallery .gallery__gallery #gallery__gallery--pcr:hover {
+  background-color: black;
+}
+#gallery .gallery__gallery #gallery__gallery--fmb {
+  background-image: url("/assets/img/gallery/img5gallerybox.jpg");
+}
+#gallery .gallery__gallery #gallery__gallery--fmb:hover {
+  background-color: black;
+}
+#gallery .gallery__gallery #gallery__gallery--tbj {
+  background-image: url("/assets/img/gallery/img6gallerybox.jpg");
+}
+#gallery .gallery__gallery #gallery__gallery--tbj:hover {
+  background-color: black;
+}
+#gallery .gallery__gallery .gallery__gallery--item {
+  height: 300px;
+  color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  word-wrap: break-word;
+  text-align: justify;
+}
+#gallery .gallery__gallery .gallery__gallery--item:hover {
+  color: white;
+}
+#gallery a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2em 6em;
+  height: 2.5em;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#gallery a:visited {
+  color: black;
+}
+#gallery a:hover {
+  background-color: #c2b35f;
+  color: white;
 }
 
 #ourchefs {
@@ -385,15 +473,19 @@ footer hr {
   z-index: 0;
   color: #faf6f0;
   font-weight: 100;
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
 }
 .titles h3 {
   font-size: 56px;
   z-index: 1;
+  text-transform: uppercase;
 }
 .titles h4 {
   font-size: 2em;
   font-weight: 200;
   z-index: 1;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
