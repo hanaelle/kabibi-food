@@ -142,7 +142,7 @@ main {
 .carte {
   background-color: rgb(250, 246, 246);
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   padding: 5em;
@@ -154,7 +154,7 @@ main {
   background-color: #e0ae71;
   color: rgb(241, 220, 220);
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   padding: 5em;
