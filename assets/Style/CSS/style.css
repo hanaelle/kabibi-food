@@ -122,35 +122,109 @@ main {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  margin-bottom: 200px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 180px;
+.categories {
+  background-color: #F5EEE3;
 }
 
-h3 {
-  text-align: center;
-  font-size: 100px;
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  color: rgb(83, 80, 80);
+  padding: 0px 26px 250px 26px;
 }
 
-h4 {
-  text-align: center;
-  font-size: 80px;
+.carte {
+  background-color: rgb(250, 246, 246);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  height: 100px;
+  width: 50px;
 }
 
-/*
-
-.menu{    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: flex-start;
-
+.carte-one {
+  background-color: #e0ae71;
+  color: rgb(241, 220, 220);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  height: 100px;
+  width: 50px;
 }
-*/
+
+li {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+}
+
+.salade {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 30px solid white;
+  top: -100px;
+  left: 28%;
+}
+
+#aboutus .titles {
+  background-image: url("/assets/img/about-us/iconbgabout.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#aboutus__pictext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 5em;
+}
+#aboutus__pictext--text {
+  width: 20vw;
+}
+#aboutus__pictext--text p {
+  margin-bottom: 2em;
+}
+#aboutus__pictext--text a {
+  padding: 1em 2.3em;
+  background-color: #c8a969;
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+#aboutus__pictext--text a:hover {
+  cursor: pointer;
+  color: black;
+}
+
 #ourmenu {
   position: relative;
   display: flex;
@@ -187,7 +261,7 @@ h4 {
   border: 2px dashed transparent;
 }
 #ourmenu .ourmenu__menu--items:hover {
-  border: 2px dashed #c2b35f;
+  border: 2px dashed #c8a969;
 }
 #ourmenu .ourmenu__menu--itemtitle {
   font-family: "Cormorant Garamond", sans-serif;
@@ -198,7 +272,7 @@ h4 {
   font-size: 13px;
 }
 #ourmenu .ourmenu__menu--itemprice {
-  color: #c2b35f;
+  color: #c8a969;
   font-size: 42px;
   margin-right: 0.5em;
 }
@@ -314,7 +388,7 @@ h4 {
   color: black;
 }
 #gallery a:hover {
-  background-color: #c2b35f;
+  background-color: #c8a969;
   color: white;
 }
 
@@ -373,7 +447,7 @@ h4 {
 }
 .newsblog__cards .newsblog__cards--card .newsblog__cards--cardinfo i {
   margin-right: 10px;
-  color: #c2b35f;
+  color: #c8a969;
 }
 .newsblog__cards .newsblog__cards--card .newsblog__card--cardtitle {
   font-family: "Cormorant Garamond", sans-serif;
@@ -397,7 +471,7 @@ h4 {
   color: black;
 }
 .newsblog__cards .newsblog__cards--card a:hover {
-  background-color: #c2b35f;
+  background-color: #c8a969;
   color: white;
 }
 
@@ -469,10 +543,10 @@ footer a:visited {
   color: grey;
 }
 footer a:hover {
-  color: #c2b35f;
+  color: #c8a969;
 }
 footer i {
-  color: #c2b35f;
+  color: #c8a969;
 }
 footer hr {
   margin: 2em 0;
@@ -509,10 +583,10 @@ footer hr {
   margin-bottom: 5em;
 }
 #footer__cpright-socials small a {
-  color: #c2b35f;
+  color: #c8a969;
 }
 #footer__cpright-socials small a:visited {
-  color: #c2b35f;
+  color: #c8a969;
 }
 #footer__cpright-socials small a:hover {
   color: #c9caca;
@@ -522,7 +596,7 @@ footer hr {
   cursor: pointer;
 }
 #footer__cpright-socials i:hover {
-  color: #c2b35f;
+  color: #c8a969;
 }
 
 .nav__menu input {
@@ -531,14 +605,14 @@ footer hr {
 .nav__menu button {
   width: 3em;
   height: 3.43em;
-  background-color: #c2b35f;
+  background-color: #c8a969;
   color: white;
   border: none;
   outline: none;
 }
 .nav__menu button:active {
   background-color: #c9caca;
-  color: #c2b35f;
+  color: #c8a969;
 }
 
 .titles {
