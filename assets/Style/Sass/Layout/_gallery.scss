@@ -1,10 +1,97 @@
+@use "../Utilitaires/variables" as *;
+
 #gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .gallery__gallery {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        &>* {
-            flex: 1 1 160px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        #gallery__line1 {
+            display: grid;
+            grid-template-columns: 1.5fr 0.7fr 0.7fr;
+            gap: 1.5em;
+            margin-bottom: 1.5em;
+        }
+        #gallery__line2 {
+            display: grid;
+            grid-template-columns: 0.7fr 0.7fr 1.48fr;
+            gap: 2em;
+        }
+        #gallery__gallery--fpd {
+                background-image: url('/assets/img/gallery/img1gallerybox.jpg');
+                z-index: 0;
+            &:hover {
+                background-color: black;
+                z-index: 1;
+            }
+        }
+        #gallery__gallery--pvt {
+            background-image: url('/assets/img/gallery/img2gallerybox.jpg');
+        &:hover {
+            background-color: black;
+            }
+        }
+        #gallery__gallery--bpp {
+            background-image: url('/assets/img/gallery/img3gallerybox.jpg');
+        &:hover {
+            background-color: black;
+            }
+        }
+        #gallery__gallery--pcr {
+            background-image: url('/assets/img/gallery/img4gallerybox.jpg');
+        &:hover {
+            background-color: black;
+            }
+        }
+        #gallery__gallery--fmb {
+            background-image: url('/assets/img/gallery/img5gallerybox.jpg');
+        &:hover {
+            background-color: black;
+            }
+        }
+        #gallery__gallery--tbj {
+            background-image: url('/assets/img/gallery/img6gallerybox.jpg');
+        &:hover {
+            background-color: black;
+            }
+        }
+        .gallery__gallery--item {
+            height: 300px;
+            color: rgba(255,255,255,0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+            word-wrap: break-word;
+            text-align: justify;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 2em 6em;
+        height: 2.5em;
+        border-radius: 10px;
+        text-decoration: none;
+        &:visited {
+            color: black;
+        }
+        &:hover {
+            background-color: $color-brown;
+            color: white;
         }
     }
 }
+
