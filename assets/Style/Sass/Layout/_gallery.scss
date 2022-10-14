@@ -19,45 +19,45 @@
         }
         #gallery__line2 {
             display: grid;
-            grid-template-columns: 0.7fr 0.7fr 1.48fr;
+            grid-template-columns: 0.72fr 0.72fr 1.5fr;
             gap: 2em;
         }
         #gallery__gallery--fpd {
-                background-image: url('/assets/img/gallery/img1gallerybox.jpg');
+                background-image: url('../../img/gallery/img1gallerybox.jpg');
                 z-index: 0;
             &:hover {
-                background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img1gallerybox.jpg");
+                background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img1gallerybox.jpg");
                 z-index: 1;
             }
         }
         #gallery__gallery--pvt {
-            background-image: url('/assets/img/gallery/img2gallerybox.jpg');
+            background-image: url('../../img/gallery/img2gallerybox.jpg');
         &:hover {
-            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img2gallerybox.jpg");
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img2gallerybox.jpg");
             }
         }
         #gallery__gallery--bpp {
-            background-image: url('/assets/img/gallery/img3gallerybox.jpg');
+            background-image: url('../../img/gallery/img3gallerybox.jpg');
         &:hover {
-            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img3gallerybox.jpg");
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img3gallerybox.jpg");
             }
         }
         #gallery__gallery--pcr {
-            background-image: url('/assets/img/gallery/img4gallerybox.jpg');
+            background-image: url('../../img/gallery/img4gallerybox.jpg');
         &:hover {
-            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img4gallerybox.jpg");
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img4gallerybox.jpg");
             }
         }
         #gallery__gallery--fmb {
-            background-image: url('/assets/img/gallery/img5gallerybox.jpg');
+            background-image: url('../../img/gallery/img5gallerybox.jpg');
         &:hover {
-            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img5gallerybox.jpg");
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img5gallerybox.jpg");
             }
         }
         #gallery__gallery--tbj {
-            background-image: url('/assets/img/gallery/img6gallerybox.jpg');
+            background-image: url('../../img/gallery/img6gallerybox.jpg');
         &:hover {
-            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("/assets/img/gallery/img6gallerybox.jpg");
+            background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../img/gallery/img6gallerybox.jpg");
             }
         }
         .gallery__gallery--item {
@@ -73,6 +73,14 @@
             text-align: center;
             &:hover {
                 color: white;
+            }
+            &-name {
+                font-family: 'Cormorant Garamond', sans-serif;
+                font-size: 24px;
+            }
+            &-desc {
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 13px;
             }
         }
     }
