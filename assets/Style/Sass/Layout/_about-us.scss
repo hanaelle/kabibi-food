@@ -3,8 +3,9 @@
 #aboutus {
     .titles {
         background-image: url('/assets/img/about-us/iconbgabout.png');
+        background-size: 12vw auto;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 86%;
     }
     &__pictext {
         display: flex;
