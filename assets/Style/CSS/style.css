@@ -239,42 +239,42 @@ h4 {
   gap: 2em;
 }
 #gallery .gallery__gallery #gallery__gallery--fpd {
-  background-image: url("/assets/img/gallery/img1gallerybox.jpg");
+  background-image: url("../../img/gallery/img1gallerybox.jpg");
   z-index: 0;
 }
 #gallery .gallery__gallery #gallery__gallery--fpd:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img1gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img1gallerybox.jpg");
   z-index: 1;
 }
 #gallery .gallery__gallery #gallery__gallery--pvt {
-  background-image: url("/assets/img/gallery/img2gallerybox.jpg");
+  background-image: url("../../img/gallery/img2gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pvt:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img2gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img2gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--bpp {
-  background-image: url("/assets/img/gallery/img3gallerybox.jpg");
+  background-image: url("../../img/gallery/img3gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--bpp:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img3gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img3gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pcr {
-  background-image: url("/assets/img/gallery/img4gallerybox.jpg");
+  background-image: url("../../img/gallery/img4gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pcr:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img4gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img4gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--fmb {
-  background-image: url("/assets/img/gallery/img5gallerybox.jpg");
+  background-image: url("../../img/gallery/img5gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--fmb:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img5gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img5gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--tbj {
-  background-image: url("/assets/img/gallery/img6gallerybox.jpg");
+  background-image: url("../../img/gallery/img6gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--tbj:hover {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img6gallerybox.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../../img/gallery/img6gallerybox.jpg");
 }
 #gallery .gallery__gallery .gallery__gallery--item {
   height: 300px;
@@ -319,7 +319,7 @@ h4 {
 }
 
 #ourchefs {
-  background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+  background-image: url("../../img/our-chefs/imgbg-ourchefs.jpg");
   background-position: left top;
   height: 100vh;
 }
@@ -422,7 +422,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("/assets/img/footer/img-ng-footer.jpg");
+  background: url("../../img/footer/img-ng-footer.jpg");
   background-position: center;
   color: #c9caca;
   /*     width: 100vw; */
