@@ -34,6 +34,7 @@
         padding: 10px;
         background-color: white;
         z-index: 2;
+        border: 2px dashed transparent;
         &:hover {
             border: 2px dashed $color-brown;
         }
