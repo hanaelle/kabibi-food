@@ -1,0 +1,46 @@
+@use "../Utilitaires/variables" as *;
+
+#ourmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #faf6f0;
+    .titles {
+        h2 {
+            color: #f5eee3;
+        }
+        h3, h4 {
+            position: relative;
+            right: 100px;
+        }
+    }
+    &__menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+    .ourmenu__menu--items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1em;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: white;
+        &:hover {
+            border: 2px dashed $color-brown;
+        }
+    }
+    .ourmenu__menu--itemtitle {
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-size: 24px;
+    }
+    .ourmenu__menu--itemdesc {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 10px;
+    }
+}
