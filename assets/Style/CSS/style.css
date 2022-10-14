@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -125,12 +127,62 @@ main {
 
 .menu {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-items: stretch;
   align-content: flex-start;
   list-style-type: none;
+  flex-wrap: nowrap;
+  color: rgb(83, 80, 80);
+  padding: 50px 26px;
+  background-color: #F5EEE3;
+  margin-bottom: 400px;
+  margin-top: 200px;
+}
+
+.carte {
+  background-color: rgb(250, 246, 246);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  height: 100px;
+  width: 50px;
+}
+
+.carte-one {
+  background-color: #e0ae71;
+  color: rgb(241, 220, 220);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  height: 100px;
+  width: 50px;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.salade {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -490px;
+  border-radius: 30%;
+  border: 50px solid white;
 }
 
 #gallery {
@@ -162,38 +214,38 @@ main {
   z-index: 0;
 }
 #gallery .gallery__gallery #gallery__gallery--fpd:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img1gallerybox.jpg");
   z-index: 1;
 }
 #gallery .gallery__gallery #gallery__gallery--pvt {
   background-image: url("/assets/img/gallery/img2gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pvt:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img2gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--bpp {
   background-image: url("/assets/img/gallery/img3gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--bpp:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img3gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pcr {
   background-image: url("/assets/img/gallery/img4gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--pcr:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img4gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--fmb {
   background-image: url("/assets/img/gallery/img5gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--fmb:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img5gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--tbj {
   background-image: url("/assets/img/gallery/img6gallerybox.jpg");
 }
 #gallery .gallery__gallery #gallery__gallery--tbj:hover {
-  background-color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/assets/img/gallery/img6gallerybox.jpg");
 }
 #gallery .gallery__gallery .gallery__gallery--item {
   height: 300px;
@@ -205,7 +257,7 @@ main {
   background-position: center;
   background-size: cover;
   word-wrap: break-word;
-  text-align: justify;
+  text-align: center;
 }
 #gallery .gallery__gallery .gallery__gallery--item:hover {
   color: white;
@@ -215,7 +267,8 @@ main {
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 2em 6em;
+  margin: 2em 0;
+  padding: 0.5em 2em;
   height: 2.5em;
   border-radius: 10px;
   text-decoration: none;
@@ -292,6 +345,7 @@ main {
   height: 2.5em;
   border-radius: 10px;
   text-decoration: none;
+  color: black;
 }
 .newsblog__cards .newsblog__cards--card a:visited {
   color: black;
@@ -461,15 +515,17 @@ footer hr {
   text-transform: uppercase;
 }
 .titles h3 {
-  font-size: 56px;
+  font-size: 36px;
   z-index: 1;
   text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
 }
 .titles h4 {
-  font-size: 2em;
-  font-weight: 200;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
   z-index: 1;
-  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
