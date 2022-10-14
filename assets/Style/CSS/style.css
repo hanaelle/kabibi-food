@@ -9,8 +9,8 @@
 }
 
 header {
-  background-image: url("/assets/img/slider/img_bg_slider_home01.jpg");
-  background: url("/assets/img/slider/img_bg_slider_home01.jpg"), linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  background-image: url("../../img/slider/img_bg_slider_home01.jpg");
+  background: url("../../img/slider/img_bg_slider_home01.jpg"), linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
   height: 100%;
   width: 100%;
 }
