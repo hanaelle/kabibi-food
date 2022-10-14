@@ -6,6 +6,9 @@ main {
     width: 100%;
     margin-bottom: 200px;
 }
+.categories{
+    background-color: #F5EEE3;
+}
 
 .menu{    
     display: flex;
@@ -14,10 +17,7 @@ main {
     list-style-type: none;
     flex-wrap: nowrap;
     color: rgb(83, 80, 80);
-    padding: 50px 26px;
-    background-color: #F5EEE3;
-    margin-bottom: 400px;
-    margin-top: 200px;
+    padding: 0px 26px 250px 26px;
 }
 .carte{
     background-color: rgb(250, 246, 246);
@@ -50,19 +50,25 @@ li{
     
 }
 .container{
+    position: relative;
     display: flex;
     flex-wrap: nowrap;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
 }
 .salade{
-    display: block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -490px;
-    border-radius: 30%;
-    border: 50px solid white;
+    border-radius: 50%;
+    border: 30px solid white;
+    top: -100px;
+    left: 28%;
+
     
 }
 
